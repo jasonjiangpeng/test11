@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:mybitmapviewanother="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".photoca.TestMain">
+<com.example.administrator.opencv.photoca.MyBitmapViewAnother
+android:id="@+id/mypicture"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+mybitmapviewanother:mybitmapviewanother_background="@drawable/a1"/>
+
+</LinearLayout>
